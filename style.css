@@ -10,7 +10,7 @@ div{
 	background-color: white;
 	display: inline-block;
 	float: left;
-	opacity: 0;
+	opacity: 100;
 }
 img{
 	position: absolute;
