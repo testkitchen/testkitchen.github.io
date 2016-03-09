@@ -1,4 +1,7 @@
 
+body{
+	background-color: #cccccc;
+}
 section{
 	position: absolute;
 	top: 0px;
@@ -7,7 +10,7 @@ section{
 div{
 	width: 40px;
 	height: 44px;
-	background-color: white;
+	background-color: #cccccc;
 	display: inline-block;
 	float: left;
 	opacity: 0;
