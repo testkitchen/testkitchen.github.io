@@ -1,6 +1,6 @@
 
 body{
-	background-color: #cccccc;
+	background-color: #e5dfdf;
 }
 section{
 	position: absolute;
@@ -10,7 +10,7 @@ section{
 div{
 	width: 40px;
 	height: 44px;
-	background-color: #cccccc;
+	background-color: #e5dfdf;
 	display: inline-block;
 	float: left;
 	opacity: 0;
