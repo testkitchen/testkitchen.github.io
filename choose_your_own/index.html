@@ -1,0 +1,88 @@
+<html>
+<head>
+	<title>
+		Sky
+	</title>
+	<link type="text/css" rel="stylesheet" href="style_badass.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$(".next").hide();
+	$(".nexttwo").hide();
+	$(".nextthree").hide();
+	$(".nextfour").hide();
+
+
+
+    $(".one").click(function(){
+        $(this).addClass("visited");
+        $(".next").slideToggle();
+    });
+    $(".two").click(function(){
+    	$(this).addClass("visited");
+        $(".nexttwo").slideToggle();
+    });
+    $(".three").click(function(){
+        $(this).addClass("visited");
+        $(".nextthree").slideToggle();
+    });
+    $(".four").click(function(){
+        $(this).addClass("visited");
+        $(".nextfour").slideToggle();
+    });
+});
+</script>
+
+</head>
+<body>
+	<div class="canvas">
+			<div class="next">
+					<div class="nexttwo">
+						<div class="nextthree">
+							<div class="nextfour">
+								<div class="intro">
+									<h1>CONCLUSION!</h1>
+								</div>		
+							</div>
+							<div class="intro">
+								<h3>Lorem ipsum dolor sit </h3>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+							</div>	
+							<a href="#" class="four">A</a>
+							<a href="#" class="four">B</a>		
+						</div>
+						<div class="intro">
+							<h3>Lorem ipsum dolor sit </h3>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+						</div>	
+						<a href="#" class="three">A</a>
+						<a href="#" class="three">B</a>
+					</div>
+				<div class="intro">
+					<h3>Lorem ipsum dolor sit </h3>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+				</div>
+				<a href="#" class="two">A</a>
+				<a href="#" class="two">B</a>
+			</div>
+		<div class="intro">
+			<h3>Lorem ipsum dolor sit </h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu</p>
+		</div>
+		<div class="questions">
+			<a href="#" class="one">A</a>
+			<a href="#" class="one">B</a>
+		</div>
+	
+	</div>
+
+
+
+</body>
+</html>
+
+
+
+
+

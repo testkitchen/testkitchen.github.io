@@ -1,0 +1,72 @@
+/*.next{
+	font-family: sans-serif;
+	width: 100%;
+	-webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+.nexttwo{
+	font-family: sans-serif;
+	width: 100%;
+	-webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+.nextthree{
+	font-family: sans-serif;
+	width: 100%;
+	-webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}
+.nextthree{
+	font-family: sans-serif;
+	width: 100%;
+	-webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+}*/
+
+a{
+	float: left;
+	background-color: white;
+	color: blue;
+	width: 48%;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	margin-left: 1%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid blue;
+	border-radius: 15px;
+	text-decoration: none;
+}
+a:hover{
+	background-color: blue;
+	color: white;
+}
+.visited{
+	background-color: rgb(100,100,255);
+	padding-top: 20px;
+	padding-bottom: 20px;	
+	width: 48%;
+	color: white;
+}
+.canvas{
+	width: 100%;
+	left: 0.1%;
+	font-family: sans-serif;
+}
+.intro{
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 150%;
+	letter-spacing: 1px;
+}
+.questions{
+	height: 65px;
+}
+h3{
+	margin-top: 0px;
+	line-height: 350%;
+}
+p{
+	margin-top: -30px;
+}
