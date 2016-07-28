@@ -25,5 +25,22 @@ img{
 
 }
 div:hover{
-	background-color: rgba(0,0,0,.6)
+	border: 2px solid rgba(0,0,0,0);
+	background-image: url("social_share3.png");
+	background-size: 35px;
+	background-position: -2px -2px;
 }
+.twitter:hover{
+	background-position: -2px -40px;
+}
+}
+.tumblr:hover{
+	background-position: -2px -78px;
+}
+.pinterest:hover{
+	background-position: -2px -116px;
+}
+.mail:hover{
+	background-position: -2px -154px;
+}
+
