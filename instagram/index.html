@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>
+		Sky
+	</title>
+	<link type="text/css" rel="stylesheet" href="style_badass.css" />
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<script type="text/javascript">
+    var feed = new Instafeed({
+      	clientId: '2f0a3dbc8cb04c23861d69a0192bd62d',
+      	accessToken: '390902173.2f0a3db.c8f05bd54e354439960a063ce7368569',
+		target: 'instagram',
+		resolution: 'standard_resolution',
+		template: '<li><div><a href="{{link}}"><img src="{{image}}" /></a><h3>{{caption}}</h3></div></li>',
+  		resolution: 'standard_resolution',
+  		get: 'user',
+        userId: '390902173',
+		after: function() {
+			var el = document.getElementById('instagram');
+			if (el.classList)
+				el.classList.add('show');
+			else
+				el.className += ' ' + 'show';
+		}
+});
+
+
+</script>
+</head>
+<body>
+	<div id="instagram"></div>
+	  <!-- <div id="pics">Hello World</div> -->
+
+
+</body>
+</html>
+
+
+
+
+

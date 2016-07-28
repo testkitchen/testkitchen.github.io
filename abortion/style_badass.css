@@ -1,0 +1,29 @@
+body{
+	background-color: black;
+}
+section{
+	position: absolute;
+	top: -7px;
+	left: 0px;
+	width: 30px;
+}
+div{
+	width: 27px;
+	height: 27px;
+	border-radius: 27px;
+	display: inline-block;
+	float: left;
+	border: 2px white solid;
+	margin-top: 7px;
+}
+img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 35px;
+
+
+}
+div:hover{
+	background-color: rgba(0,0,0,.6)
+}
