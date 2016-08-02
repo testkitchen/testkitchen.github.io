@@ -1,5 +1,5 @@
 body{
-	background-color: #bbbbbb;
+	background-color: #DBDBDB;
 }
 .wall{	
 	background-color: #DBDBDB;
@@ -30,7 +30,7 @@ img{
 	height: 45px;
 
 }
-.shadow{
+/*.shadow{
 	opacity: 1;
 	position: absolute;
 	top: -2px;
@@ -39,5 +39,5 @@ img{
 	height: 2px;
 	box-shadow: 0px 0px 6px #555555;
 	z-index: 99;
-}
+}*/
 
