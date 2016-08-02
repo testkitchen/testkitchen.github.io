@@ -1,26 +1,18 @@
 body{
 	background-color: #DBDBDB;
 }
-.wall{	
-	background-color: #DBDBDB;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 528px;
-	height: 45px;
-}
 section{
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 600px;
-	border-left: 1px solid #bbbbbb;
-
+/*	border-left: 1px solid #bbbbbb;
+*/
 }
 .link{
-	width: 105.8px;
-	border-right: 1px solid #bbbbbb;
-	height: 45px;
+	width: 64px;
+/*	border-right: 1px solid #bbbbbb;
+*/	height: 45px;
 	display: inline-block;
 	float: left;
 
