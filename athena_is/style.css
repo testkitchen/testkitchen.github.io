@@ -1,0 +1,71 @@
+@media only screen and (max-width: 499px) {
+section{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+}
+div{
+	width: auto;
+	display: inline-block;
+	float: left;
+	padding: 0px 15px 0px 15px;
+}
+.hide{
+	display: none;
+}
+img{
+	width: 100%;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+}
+a{
+	color: black;
+}
+
+}
+
+
+@media only screen and (min-width: 500px) {
+div{
+	width: 31.33%;
+	height: 50px;
+	display: inline-block;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+.hide{
+	display: block;
+}
+p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+}
+img{
+	width: 100%;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 1%;
+}
+a{
+	color: black;
+}
+
+}
