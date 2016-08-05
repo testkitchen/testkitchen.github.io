@@ -5,11 +5,11 @@ section{
 	position:absolute;
 	top:0px;
 	left:0px;
-	width: 320px;
+	width: 360px;
 	border-bottom: dotted black 1px;
 }
 .title{
-	width: 170px;
+	width: 210px;
 	padding: 0 0 0 0;
 	display: inline-block;
 	font-size: 1.1em;
