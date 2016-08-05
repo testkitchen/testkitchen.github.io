@@ -1,18 +1,18 @@
 body{
-	background-color: #DBDBDB;
+	background-color: white;
 }
 section{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 2px;
 	width: 600px;
 /*	border-left: 1px solid #bbbbbb;
 */
 }
 .link{
-	width: 64px;
-/*	border-right: 1px solid #bbbbbb;
-*/	height: 45px;
+	width: 64;
+	/*border: 2px solid white;*/
+	height: 45px;
 	display: inline-block;
 	float: left;
 
@@ -20,7 +20,7 @@ section{
 img{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 2px;
 	height: 45px;
 
 }
