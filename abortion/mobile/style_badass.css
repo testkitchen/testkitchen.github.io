@@ -22,7 +22,7 @@ img{
 	height: 45px;
 
 }
-/*.shadow{
+.shadow{
 	opacity: 1;
 	position: absolute;
 	top: 0px;
@@ -30,7 +30,7 @@ img{
 	width:100%;
 	height: 1px;
 	z-index: 99;
-	background-color: #bbbbbb;
+	background-color: #eeeeee;
 
-}*/
+}
 
