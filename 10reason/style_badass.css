@@ -1,0 +1,50 @@
+body{
+	background-color: #DBDBDB;
+}
+section{
+	position: absolute;
+	top: -7px;
+	left: 0px;
+	width: 30px;
+}
+div{
+	width: 27px;
+	height: 27px;
+	border-radius: 27px;
+	display: inline-block;
+	float: left;
+	border: 2px #DBDBDB solid;
+	margin-top: 7px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease;
+    -moz-transition: opacity .2s ease;
+    -ms-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+img{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 35px;
+}
+div:hover{
+	border: 2px solid rgba(0,0,0,0);
+	background-image: url("social_share3.png");
+	background-size: 35px;
+	background-position: -2px -2px;
+	opacity: 1;
+}
+.twitter:hover{
+	background-position: -2px -40px;
+}
+.tumblr:hover{
+	background-position: -2px -78px;
+}
+.pinterest:hover{
+	background-position: -2px -116px;
+}
+.mail:hover{
+	background-position: -2px -154px;
+}
+

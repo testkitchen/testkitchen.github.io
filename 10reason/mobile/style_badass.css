@@ -1,0 +1,36 @@
+body{
+	background-color: white;
+}
+section{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 600px;
+}
+.link{
+	width: 64;
+	/*border: 2px solid white;*/
+	height: 45px;
+	display: inline-block;
+	float: left;
+
+}
+img{
+	position: absolute;
+	top: 4px;
+	left: 0px;
+	height: 45px;
+
+}
+.shadow{
+	opacity: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height: 1px;
+	z-index: 99;
+	background-color: #dbdbdbd;
+
+}
+
