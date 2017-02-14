@@ -1,0 +1,29 @@
+article{
+  	-webkit-flow-into: article-flow;
+}
+
+
+
+.test{
+	z-index: 1;
+}
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 500px;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+    	-webkit-flow-from: article-flow;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        line-height: 300px;
+    }
