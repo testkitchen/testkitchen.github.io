@@ -1,29 +1,38 @@
 article{
   	-webkit-flow-into: article-flow;
+  	    padding-left: 15px;
+  	    padding-right: 15px;
+  	    letter-spacing: .5px;
+}
+.flow{
+		-webkit-flow-from: article-flow;
+
 }
 
 
-
-.test{
-	z-index: 1;
+html, body {
+	position: relative;
+    height: 100%;
 }
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
-    .swiper-container {
-        width: 500px;
-        height: 300px;
-        margin: 20px auto;
-    }
-    .swiper-slide {
-    	-webkit-flow-from: article-flow;
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        line-height: 300px;
-    }
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    line-height: 150%;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    line-height: 300px;
+}
+.full{
+	background-image: url:("http://freight.cargocollective.com/w/1698/q/67/i/0000080x09c73ca.8027ecbb48683893e300e8a3c79db0ad407f51a0600c8e80db672c93e9048ff3/Unknown-7.jpeg") !important;
+}
