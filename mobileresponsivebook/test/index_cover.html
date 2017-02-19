@@ -16,13 +16,13 @@
         padding: 0;
     }
     .swiper-container {
-        width: 500%;
+        width: 250%;
         height: 100%;
         position: fixed;
-        bottom: -40%;
-        left: -200%;
-        -webkit-transform: scale(.2,.2) !important; /* Safari */
-        transform: scale(.2,.2); 
+        bottom: -30%;
+        left: -75%;
+        -webkit-transform: scale(.4,.4) !important; /* Safari */
+        transform: scale(.4,.4); 
         transition: all .5s ease-in-out; 
     }
     .swiper-slide {
@@ -88,7 +88,7 @@
     var swiper = new Swiper('.swiper-container', {
         scrollbar: '.swiper-scrollbar',
         scrollbarHide: false,
-        slidesPerView: '4.5',
+        slidesPerView: '2.5',
         spaceBetween: 5,
         grabCursor: true,
         touchRatio: 10,
@@ -103,8 +103,10 @@
 
         if ($this.hasClass('in-depth')) {
             $this.removeClass('in-depth');
+            swiper.params.touchRatio = 5
         } else {
             $this.addClass('in-depth');
+            swiper.params.touchRatio = 1
         }
 
 
