@@ -22,7 +22,7 @@
         bottom: -30%;
         left: -75%;
         -webkit-transform: scale(.4,.4) !important; /* Safari */
-        transform: scale(.3,.3); 
+        transform: scale(.4,.4); 
         transition: all .5s ease-in-out; 
     }
     .swiper-slide {
@@ -72,6 +72,9 @@
             <div class="swiper-slide">Slide 8</div>
             <div class="swiper-slide">Slide 9</div>
             <div class="swiper-slide">Slide 10</div>
+            <div class="swiper-slide">Credits</div>
+            <div class="swiper-slide">Credits</div>
+
         </div>
         <!-- Add Scrollbar -->
         <div class="swiper-scrollbar"></div>
@@ -88,7 +91,8 @@
         slidesPerView: '2.5',
         spaceBetween: 5,
         grabCursor: true,
-        touchRatio: 2,
+        touchRatio: 6,
+        // longSwipesRatio: 10,
     });
     </script>
 
@@ -102,7 +106,6 @@
         } else {
             $this.addClass('in-depth');
         }
-
     });
     </script>
 </body>
