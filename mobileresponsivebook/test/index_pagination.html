@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $('.swiper-container').click(function() {
+        var $this = $(this);
+
+        if ($this.hasClass('downwarddog')) {
+            $this.removeClass('downwarddog');
+        } else {
+            $this.addClass('downwarddog');
+        }
+
+        });
+    });
+    </script> 
+
+
+</head>
+<body>
+
+
+
+    <!-- Swiper -->
+    <div class="swiper-container" >
+    <article>
+		<p>WASHINGTON &mdash; National security adviser Michael Flynn resigned late Monday, following revelations that he discussed U.S. sanctions against Russia with that country&rsquo;s ambassador in the days surrounding their imposition &mdash; and weeks prior to Donald Trump&rsquo;s inauguration.</p>
+
+		<p>Retired Lt. Gen. Joseph Keith Kellogg Jr. will serve as acting national security advisor until a full-time replacement is named, the White House announced. Kellogg, as well as Vice Adm. Robert Harward and retired Gen. David Petraeus are the three candidates in line to succeed Flynn, according to the administration.</p>
+
+		<p>Flynn&rsquo;s resignation came after a tumultuous few days of revelations about his ties to Russia and his role in attempting to ease sanctions that were put in place weeks before the Trump administration took office. </p>
+
+		<p>In late December, President Barack Obama announced the sanctions, which included the expulsion of 35 Russian intelligence operatives, in response to Russian interference in the November election designed to help Trump win.</p>
+
+		<p>Flynn at first denied that he had discussed the sanctions when he spoke with Russian ambassador Sergey Kislyak. He said the conversations concerned setting up a phone call between Trump and Russian leader Vladimir Putin and offering condolences after the murder of a Russian diplomat in Turkey.</p>
+
+		<p>But following a Washington Post report &mdash; based partially on transcripts of the conversations &mdash; Flynn&rsquo;s office revised his earlier statements, and said that he couldn&rsquo;t recall whether the topic of sanctions had come up. On Monday night, the plot thickened, with The Washington Post reporting that top officials at the Department of Justice warned the Trump administration weeks ago that Flynn might have been compromised by Russian influences and The New York Times reporting that the Army had investigated whether Flynn received payments from the Russian government in 2015.</p>
+
+		<p>As the revelations have piled up, the question has turned to why the Trump administration didn&rsquo;t act sooner to sever ties. Trump has faced his own criticism for being too cozy to Russia.</p>
+
+		<p>When Putin&rsquo;s response to Obama&rsquo;s sanctions was uncharacteristically subdued, for example, Trump praised the Russian leader for his savvy. (Putin did not respond by expelling suspected American intelligence agents as is normally done, and instead said he hoped relations would improve after Trump took office.)</p>
+
+		<p>Trump also has been loath to concede the Russian actors played a role in the 2016 elections, even though U.S. counterintelligence agencies concluded in October that Russia and WikiLeaks &mdash; which many in the intelligence community believe is a mouthpiece for Russian spy agencies &mdash; were trying to interfere. A follow-up report released Jan. 9 added that Russia had been actively trying to help Trump and hurt his Democratic opponent, Hillary Clinton.</p>
+
+		<p>Flynn, like Trump, has advocated a closer relationship with Russia as an ally in the fight against Islamic terrorism. He appeared at an awards dinner honoring the Kremlin-sponsored RT network in 2015, at which he was seated beside Putin.</p>
+
+		<p>A retired Army lieutenant general, Flynn was considered an accomplished intelligence field officer but was fired from his job running the Defense Intelligence Agency in the Obama administration in 2014. In 2015, he began supporting Trump&rsquo;s primary campaign, and was a featured speaker at the Republican National Convention last summer, when he led the crowd in chants of &ldquo;lock her up,&rdquo; regarding Clinton.</p>
+
+		<p>For this advocacy on the trail, Flynn enjoyed a tight relationship with Trump and got the plum foreign policy position in his administration when the election was over. Other Republican foreign policy operatives hesitated to work for him, making staffing inside the White House all the more difficult. But Trump remained committed, confounding others inside the administration who saw Flynn as toxic.</p>
+
+		<p>As recently as a few hours before the resignation was announced, White House counsel Kellyanne Conway had said that Flynn enjoyed the &ldquo;full confidence of the president.&rdquo;</p>
+
+		<p>That, clearly, turned out not to be true.</p>
+	</article>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide flow">Slide 1</div>
+            <div class="swiper-slide flow">Slide 2</div>
+            <div class="swiper-slide">
+            	<div class="swiper-zoom-container">
+                    <img src="http://lorempixel.com/800/800/sports/1">
+                </div>
+            </div>
+            <div class="swiper-slide flow">Slide 4</div>
+            <div class="swiper-slide flow">Slide 5</div>
+            <div class="swiper-slide flow">Slide 6</div>
+            <div class="swiper-slide flow">Slide 7</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+    	zoom: true, 	
+        pagination: '.swiper-pagination',
+        paginationType: 'fraction',
+        paginationClickable: true,
+        touchRatio:1.5,
+
+    });
+    </script>
+
+</body>
+</html>
+

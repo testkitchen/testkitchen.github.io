@@ -1,0 +1,11 @@
+article{
+  	-webkit-flow-into: article-flow;
+  	    padding-left: 15px;
+  	    padding-right: 15px;
+  	    letter-spacing: .5px;
+}
+.flow{
+		-webkit-flow-from: article-flow;
+
+}
+
