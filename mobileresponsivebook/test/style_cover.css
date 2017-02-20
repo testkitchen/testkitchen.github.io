@@ -12,3 +12,6 @@ article{
 .swiper-scrollbar{
 	opacity: 0;
 }
+.last{
+	width: 16% !important;
+}
