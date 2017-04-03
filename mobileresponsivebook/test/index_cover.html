@@ -45,12 +45,10 @@
             align-items: center;
         }
         .in-depth{
-            width: 100%;
-            height: 100%;
-            transform: scale(1,1);
-            transition: all .5s ease-in-out; 
             bottom: 0;
             left: 0;
+            transform: scale(1,1);
+            transition: all .5s ease-in-out; 
 
         }
 
@@ -108,7 +106,6 @@
             swiper.params.touchRatio = 10
         } else {
             $this.addClass('in-depth');
-            swiper.params.slidesPerView = 1
             swiper.params.touchRatio = 1
 
         }
