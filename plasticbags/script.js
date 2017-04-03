@@ -33,3 +33,4 @@ document.getElementById("myNumber")
         document.getElementById("press").click();
     }
 });
+    alert("hello")
