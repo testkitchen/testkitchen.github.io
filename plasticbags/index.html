@@ -5,7 +5,10 @@
 	</title>
 	<link type="text/css" rel="stylesheet" href="mystyle.css" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -13,47 +16,64 @@
   <div id="prompt">
     <h1>How many plastic bags do you think one American family uses in a month?</h1>
     <input type="number" id="myNumber"><button id="press" onclick="myFunction()">Submit</button>
-    <p id="demo"></p>
+    <p id="warning"></p>
   </div>
   
   <!--second screen-->
+
   <div id="answer">
     <h1>These are the bags an American family uses in one month. </h1>
         <h2>Scroll to find your answer</h2>
+    <p id="demo"></p>
+
   <!--bags-->
   <div class="canvas">
+    <div id="numeros"></div>
+ 
     <div class="container">
-      <div class="paper">
-        <img src="https://image.ibb.co/b5QZyv/outline.png"/>
-      </div>
-  <!--part2-->
-      <div class="pullquote">
-        <h2>500 BAGS</h2>
-        <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
-      </div>
-      <div class="paper2">
-        <img src="https://image.ibb.co/b5QZyv/outline.png"/>
-      </div>  
-  <!--part3-->
-      <div class="pullquote">
-        <h2>1000 BAGS</h2>
-        <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
-      </div>
-      <div class="paper3">
-        <img src="https://image.ibb.co/b5QZyv/outline.png"/>
-      </div> 
-  <!--part4-->
-      <h3>American’s use 1,500 plastic bags a year!</h3>
+        <div class="paper">
+          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
+        </div>
+    <!--part2-->
+        <div class="pullquote">
+          <h1>500 BAGS</h1>
+          <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
+        </div>
+        <div class="paper2">
+          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
+        </div>  
+    <!--part3-->
+        <div class="pullquote">
+          <h1>1000 BAGS</h1>
+          <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
+        </div>
+        <div class="paper3">
+          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
+        </div> 
+    <!--part4-->
+        <h3>American’s use 1,500 plastic bags a year!</h3>
     </div>
   </div>
   <!--lights-->
-    <div class="roof">
-      <div class="bulb">
+  <div class="roof" id="roof">
+      <div class="bulb" id="bulb">
           <img src="https://image.ibb.co/csoyQa/lightup.png"/>
       </div>
+      <div class="bulb tungsten" id="tungsten2">
+          <img src="https://image.ibb.co/csoyQa/lightup.png"/>
+      </div>
+      <div class="bulb tungsten" id="tungsten3">
+          <img src="https://image.ibb.co/csoyQa/lightup.png"/>
+      </div>
+      <div id="end"></div>
     </div>
-  </div>
-<script src="script.js"></script>
   
+<script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
