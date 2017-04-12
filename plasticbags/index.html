@@ -69,6 +69,15 @@
     </div>
   
 <script src="script.js"></script>
+<script src="pym.js"></script>
+<script>
+function check_answer(e) {
+       pymChild.sendHeight();
+    }
+$('#press').on('click', check_answer);
+
+var pymChild = new pym.Child();
+</script>
 </body>
 </html>
 

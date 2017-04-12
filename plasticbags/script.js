@@ -16,6 +16,7 @@ function myFunction() {
     var y = x - 1000;
     var z = x - 500;
     document.getElementById("answer").style.display = 'block';
+    $('body').height(26000);
   
     if (x > 0 && x <= 500) {
       document.getElementById("prompt").style.visibility = 'hidden';
@@ -49,11 +50,11 @@ function myFunction() {
 )
 };
 
-var myNumber = 0;
+var counter = 0;
 var txt = "";
-while (myNumber != 1500) {
-  myNumber = myNumber + 1;
-  var wrapper = "<div>" + myNumber + "</div>";
+while (counter != 1500) {
+  counter = counter + 1;
+  var wrapper = "<div>" + counter + "</div>";
   txt = txt + wrapper;
   document.getElementById("numeros").innerHTML = txt;
 }
@@ -67,3 +68,7 @@ document.getElementById("myNumber")
         myFunction();
     }
 });
+
+
+
+
