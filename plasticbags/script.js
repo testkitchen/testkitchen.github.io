@@ -42,7 +42,7 @@ function myFunction() {
     var z = x - 500;
   
     document.getElementById("answer").style.display = 'block';
-    $('body').height(26000);
+    $('body').height(27600);
     document.getElementById("correction").innerHTML = "<h1>" + "You said: " + x + "</h1>";
 
     if (x > 0 && x <= 500) {
