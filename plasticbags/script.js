@@ -40,7 +40,7 @@ function myFunction() {
     var x = document.getElementById("myNumber").value;
     var y = x - 1000;
     var z = x - 500;
-    $('body').height(26000);
+    $('body').height(27500);
     pymChild.sendHeight();
     document.getElementById("answer").style.display = 'block';
     document.getElementById("correction").innerHTML = "<h1>" + "You said: " + x + "</h1>";
