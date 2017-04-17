@@ -40,12 +40,12 @@ function myFunction() {
     var x = document.getElementById("myNumber").value;
     var y = x - 1000;
     var z = x - 500;
-    $('body').height(27500);
-    pymChild.sendHeight();
     document.getElementById("answer").style.display = 'block';
     document.getElementById("correction").innerHTML = "<h1>" + "You said: " + x + "</h1>";
 
     if (x > 0 && x <= 500) {
+      $('body').height(27500);
+      pymChild.sendHeight();
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
       multiplyNode(document.querySelector('.bulb'), x, true);
@@ -54,6 +54,8 @@ function myFunction() {
 
 }
     else if (x > 500 && x <= 1000) {
+      $('body').height(27500);
+      pymChild.sendHeight();
       document.getElementById("tungsten3").style.visibility = 'hidden';
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
@@ -61,6 +63,8 @@ function myFunction() {
       multiplyNode(document.querySelector('.tungsten'), z, true);
 }
     else if (x > 1000 && x <= 1500) {
+      $('body').height(27500);
+      pymChild.sendHeight();
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
       multiplyNode(document.querySelector('.bulb'), 500, true);
