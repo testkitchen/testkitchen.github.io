@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>
-		Plastic Bags
-	</title>
-	<link type="text/css" rel="stylesheet" href="mystyle.css" />
+  <title>
+    Plastic Bags
+  </title>
+  <link type="text/css" rel="stylesheet" href="mystyle.css" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -14,56 +14,73 @@
 <body>
   <!--first screen-->
   <div id="prompt">
-    <h1>How many plastic bags do you think one American family uses in a month?</h1>
-    <input type="number" id="myNumber"><button id="press" onclick="myFunction()">Submit</button>
+    <h1>How many <img id="emoji" src="https://image.ibb.co/jaGgY5/vectors1.png"/> <span id="pb">plastic bags</span> do you think one American family uses in a year?</h1>
+    <div class="shadow">
+      <input type="number" id="myNumber"  placeholder="0000" min="0" max="9999" maxlength = "4"
+  onkeypress="return isNumeric(event)" oninput="maxLengthCheck(this)">
+        <button id="press" onclick="myFunction()">Submit</button>
+    </div>
     <p id="warning"></p>
-  </div>
+  </div>    
+
   
   <!--second screen-->
 
   <div id="answer">
-    <h1>These are the bags an American family uses in one month. </h1>
-        <h2>Scroll to find your answer</h2>
+    <div id="correction"></div>
+        <h2>Scroll to see how those trips to the store add up</h2>
     <p id="demo"></p>
 
   <!--bags-->
+
   <div class="canvas">
-    <div id="numeros"></div>
  
     <div class="container">
+
         <div class="paper">
-          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
+            <img src="http://i.imgur.com/hlTBitT.jpg"/>
         </div>
+        <div id="numeros"></div>
     <!--part2-->
-        <div class="pullquote">
-          <h1>500 BAGS</h1>
-          <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
+      
+         <div class="pullquote">
+          <p>The chemicals used to make plastics can be absorbed by the human body.Ninety-three percent of Americans aged 6 or older tested positive for BPA, a widely used plastic chemical, according to one survey by the Centers for Disease Control and Prevention.</p>
         </div>
-        <div class="paper2">
-          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
-        </div>  
+        <div id="break">
+          <div class="paper2" >
+            <img src="http://i.imgur.com/hlTBitT.jpg"/>
+          </div> 
+          <div id="numeros2"></div>
+        </div>
     <!--part3-->
-        <div class="pullquote">
-          <h1>1000 BAGS</h1>
-          <p>This is enough plastic to fill an olympic sized something that would make sense to put as copy here.</p>
+        <div class="pullquote" id="seconder">
+          <p>Plastics in the oceans also pose a threat to over 600 different wildlife species. One in three leatherback sea turtles have been found with plastic in their stomachs. In 2017, a dead whale beached on Norway’s coast had 30 plastic bags inside its belly.</p>
         </div>
-        <div class="paper3">
-          <img src="https://image.ibb.co/b5QZyv/outline.png"/>
+        <div id="break2">
+          <div class="paper3">
+            <img src="http://i.imgur.com/hlTBitT.jpg"/>
+          </div> 
+          <div id="numeros3"></div>
         </div> 
     <!--part4-->
-        <h3>American’s use 1,500 plastic bags a year!</h3>
+        <div id="finale">
+          <h3>American’s use 1,500 plastic bags a year!</h3>
+        </div>
+
+    
+        </div>
+
     </div>
-  </div>
   <!--lights-->
   <div class="roof" id="roof">
       <div class="bulb" id="bulb">
-          <img src="https://image.ibb.co/csoyQa/lightup.png"/>
+          <img src="https://image.ibb.co/fZHPLk/vectors_highlight.png"/>
       </div>
       <div class="bulb tungsten" id="tungsten2">
-          <img src="https://image.ibb.co/csoyQa/lightup.png"/>
+          <img src="https://image.ibb.co/fZHPLk/vectors_highlight.png"/>
       </div>
       <div class="bulb tungsten" id="tungsten3">
-          <img src="https://image.ibb.co/csoyQa/lightup.png"/>
+          <img src="https://image.ibb.co/fZHPLk/vectors_highlight.png"/>
       </div>
       <div id="end"></div>
     </div>
