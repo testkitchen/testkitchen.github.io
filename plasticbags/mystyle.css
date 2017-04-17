@@ -1,6 +1,5 @@
 body{
   height: 400px;
-  width: 100%;
 }
 input{
   float: left;
@@ -15,7 +14,6 @@ input{
   color: #252956;
 }
 #correction{
-/*   width: 320px; */
   text-align: center;
 }
 #emoji{

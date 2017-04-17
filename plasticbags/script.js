@@ -40,9 +40,9 @@ function myFunction() {
     var x = document.getElementById("myNumber").value;
     var y = x - 1000;
     var z = x - 500;
-  
+    $('body').height(26000);
+    pymChild.sendHeight();
     document.getElementById("answer").style.display = 'block';
-    $('body').height(27600);
     document.getElementById("correction").innerHTML = "<h1>" + "You said: " + x + "</h1>";
 
     if (x > 0 && x <= 500) {
