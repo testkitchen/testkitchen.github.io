@@ -82,19 +82,19 @@ img{
   position: absolute;
 }
 .roof{
-  left: 4px;
+  left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
   width: 320px;
-  margin-top: 46px;
+  margin-top: 50px;
 }
 .bulb{
   width: 20%;
-  height: 84px;
+  height: 89px;
   float: left;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 h1{
