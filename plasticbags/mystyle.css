@@ -12,6 +12,9 @@ input{
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
   color: #252956;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 input[type=text] {   
     -webkit-appearance: none;
@@ -47,7 +50,7 @@ button{
   float: left;
   position: relative;
   height: 65px;
-  width: 100px;
+  width: 110px;
   background-color: #4166a0;
   font-size: 20px;
   color: #fffcba;
@@ -62,7 +65,7 @@ button{
 .shadow{
   float: left;
   margin-left: 10px;
-  width: 300px;
+  width: 310px;
   height: 65px;
   box-shadow: 0px 3px 10px gray;
 }
