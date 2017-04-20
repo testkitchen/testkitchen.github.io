@@ -62,6 +62,7 @@ function myFunction() {
       $('body').height(27700);
       pymChild.sendHeight();
 
+      document.getElementById("tungsten4").style.visibility = 'hidden';
       document.getElementById("tungsten3").style.visibility = 'hidden';
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
