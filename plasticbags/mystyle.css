@@ -1,6 +1,9 @@
 body{
   height: 400px;
 }
+a{
+  display: inline-block;
+}
 input{
   float: left;
   width: 200px;
@@ -123,6 +126,7 @@ p{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  display: inline-block;
 }
 #warning{
   position: relative;
@@ -226,21 +230,21 @@ h5{
   transform: rotate(4deg);
 }
 #numeros2{
-  top: 5070px;
+  top: 5090px;
 }
 #numeros3{
-  top: 11920px;
+  top: 11960px;
 }
 #numeros4{
-  top: 18775px;
+  top: 18830px;
 }
 #break{
   position: relative;
-  top: 220px;
+  top: 250px;
 }
 #break2{
   position: relative;
-  top: 420px;
+  top: 460px;
 }
 #break3{
   position: relative;
@@ -248,23 +252,27 @@ h5{
 }
 #hotspot{
   position: relative;
-  top: 220px;
+  top: 250px;
 }
 #hotspot2{
   position: relative;
-  top: 420px;
+  top: 460px;
 }
-#finale{
+#hotspot3{
   position: relative;
   top: 620px;
 }
+#finale{
+  font-weight: bold;
+  font-size: 30px;
+}
 #tungsten2{
   position: relative;
-  top: 220px;
+  top: 250px;
 }
 #tungsten3{
   position: relative;
-  top: 420px;
+  top: 460px;
 }
 #tungsten4{
   position: relative;
