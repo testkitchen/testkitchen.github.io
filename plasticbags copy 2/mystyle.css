@@ -1,0 +1,280 @@
+body{
+  height: 400px;
+}
+a{
+  display: inline-block;
+}
+input{
+  float: left;
+  width: 180px;
+  height: 65px;
+  font-size: 30px;
+  border: 2px solid #fffcba;
+  background-color: #fffcba;
+  padding-left: 25px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  color: #252956;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type=text] {   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+#correction{
+  text-align: center;
+}
+#emoji{
+  width: 50px;
+  height: 70px;
+  position: relative;
+  top: 20px;
+  padding-left: 5px;
+}
+#prompt{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#answer{
+  position: absolute;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  float: left;
+  position: relative;
+  height: 65px;
+  width: 120px;
+  background-color: #4166a0;
+  font-size: 20px;
+  color: #fffcba;
+  border: 2px solid #4166a0;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.shadow{
+  float: left;
+  margin-left: 10px;
+  width: 300px;
+  height: 65px;
+  box-shadow: 0px 3px 10px gray;
+}
+.paper, .paper2, .paper3, .paper4{
+  width: 100%;
+  float: left;
+  height: 445px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  position: absolute;
+}
+.roof{
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 320px;
+  margin-top: 50px;
+}
+.bulb{
+  width: 20%;
+  height: 89px;
+  float: left;
+  margin-top: 0px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  display: inline-block;
+}
+#warning{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #c1272d;
+  float: left;
+  padding-left: 10px;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+  margin-left: 10px;
+}
+.pullquote{
+  position: relative;
+  left: 10px;
+  width: 98%;
+  height: 250px;
+}
+.canvas{
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 320px;
+  margin-top: 50px;
+}
+#popup{
+  background-color: rgba(0,0,0,.5);
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 20px;
+  visibility: visible;
+}
+h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white
+}
+#numeros, #numeros2, #numeros3, #numeros4{
+ position: absolute;
+ width: 320px;
+ margin-top: 45px;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ top: 0;
+ font-family: sans-serif;
+ font-size: 13px;
+ letter-spacing: 1px;
+ font-weight: bold;
+ color: white;
+ text-shadow: 0px 3px 3px rgba(0,0,0,.7);
+}
+#numeros div{
+  width: 20%;
+  height: 89px;
+  text-align: center;
+  float: left;
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+#numeros2 div{
+  width: 20%;
+  height: 89px;
+  text-align: center;
+  float: left;
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);}
+#numeros3 div{
+  width: 20%;
+  height: 89px;
+  text-align: center;
+  float: left;
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+#numeros4 div{
+  width: 20%;
+  height: 89px;
+  text-align: center;
+  float: left;
+  -ms-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+#numeros2{
+  top: 5090px;
+}
+#numeros3{
+  top: 11960px;
+}
+#numeros4{
+  top: 18830px;
+}
+#break{
+  position: relative;
+  top: 250px;
+}
+#break2{
+  position: relative;
+  top: 460px;
+}
+#break3{
+  position: relative;
+  top: 620px;
+}
+#hotspot{
+  position: relative;
+  top: 250px;
+}
+#hotspot2{
+  position: relative;
+  top: 460px;
+}
+#hotspot3{
+  position: relative;
+  top: 620px;
+}
+#finale{
+  font-weight: bold;
+  font-size: 30px;
+}
+#tungsten2{
+  position: relative;
+  top: 250px;
+}
+#tungsten3{
+  position: relative;
+  top: 460px;
+}
+#tungsten4{
+  position: relative;
+  top: 620px;
+}
