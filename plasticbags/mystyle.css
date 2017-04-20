@@ -6,7 +6,7 @@ a{
 }
 input{
   float: left;
-  width: 190px;
+  width: 180px;
   height: 65px;
   font-size: 30px;
   border: 2px solid #fffcba;
@@ -68,7 +68,7 @@ button{
 .shadow{
   float: left;
   margin-left: 10px;
-  width: 310px;
+  width: 300px;
   height: 65px;
   box-shadow: 0px 3px 10px gray;
 }
