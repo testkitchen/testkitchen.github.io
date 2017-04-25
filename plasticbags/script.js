@@ -48,14 +48,14 @@ function myFunction() {
     
 
     if( x >=0, x<=0) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
       document.getElementById("roof").style.visibility = 'hidden';
     }
     else if (x > 0 && x <= 300) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
 
       document.getElementById("prompt").style.visibility = 'hidden';
@@ -67,7 +67,7 @@ function myFunction() {
 
 }
     else if (x > 300 && x <= 700) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
 
       document.getElementById("tungsten4").style.visibility = 'hidden';
@@ -78,7 +78,7 @@ function myFunction() {
       multiplyNode(document.querySelector('.tungsten'), z, true);
 }
     else if (x > 700 && x <= 1100) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
 
       document.getElementById("tungsten4").style.visibility = 'hidden';
@@ -89,7 +89,7 @@ function myFunction() {
       multiplyNode(document.querySelector('#tungsten3'), y, true);
 }
     else if (x > 1100 && x <= 1500) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
       
       document.getElementById("prompt").style.visibility = 'hidden';
@@ -112,7 +112,7 @@ function myError() {
     var sum = m.reduce(function(m, b) { return m + b; }, 0);
   
     if (sum >= 20) {
-      $('body').height(27700);
+      $('body').height(27800);
       pymChild.sendHeight();
       document.getElementById("prompt").style.visibility = 'hidden';
       document.getElementById("answer").style.visibility = 'visible';
