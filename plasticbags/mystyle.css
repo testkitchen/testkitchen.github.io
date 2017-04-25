@@ -121,6 +121,7 @@ h2{
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
+  padding: 10px;
 }
 p{
   font-family: 'Roboto', sans-serif;
